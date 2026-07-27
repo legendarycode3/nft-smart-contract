@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-This repository contains
+This repository contains two ERC-721 Non-Fungible Token (NFT)
 
 
 
