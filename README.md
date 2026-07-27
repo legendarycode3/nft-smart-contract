@@ -3,7 +3,7 @@
 
 ## Project Overview
 This repository contains two ERC-721 Non-Fungible Token (NFT) smart contracts built with `Solidity`, `OpenZeppelin`, and the `Foundry` development framework. The project showcases both traditional and dynamic NFT implementations while demonstrating best practices for NFT development, deployment, testing, and interaction. </br>
-The repository includes: 
+The repository includes two NFT collections:: 
 
 
 
