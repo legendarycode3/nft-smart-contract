@@ -46,6 +46,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Dynamic artwork updates through `tokenURI()`.
 * Data URI metadata support.
 * Initial mood set to **HAPPY** upon minting.
+* Owner or approved operator
 
 
 ## Foundry
