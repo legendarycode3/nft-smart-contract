@@ -14,6 +14,8 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 ### Overall Features
 
+### Basic NFT Features
+
 
 ## Foundry
 
