@@ -36,6 +36,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Lightweight and gas-efficient architecture.
 
 ### Mood NFT Features
+* ERC-721 compliant NFT.
 
 
 ## Foundry
