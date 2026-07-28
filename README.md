@@ -23,6 +23,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 *  Fully on-chain metadata generation.
 *  Dynamic SVG artwork rendering.
 *  Base64 encoding for metadata and images.
+*  Standards-compliant ERC-721 implementation.
 
 
 ### Basic NFT Features
