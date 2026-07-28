@@ -39,6 +39,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * ERC-721 compliant NFT.
 * Fully on-chain metadata generation.
 * Fully on-chain SVG artwork.
+* Base64-encoded JSON metadata.
 
 
 ## Foundry
