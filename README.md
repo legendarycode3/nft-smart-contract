@@ -32,6 +32,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Sequential token ID generation.
 * Safe NFT minting using `_safeMint`.
 * Custom `tokenURI()` implementation.
+* Ownership tracking through
 
 ### Mood NFT Features
 
