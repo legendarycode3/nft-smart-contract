@@ -26,7 +26,8 @@ In addition to the smart contracts, the project provides deployment scripts, int
 *  Standards-compliant ERC-721 implementation.
 
 ### Basic NFT Features
-* ERC-721 compliant NFT
+* ERC-721 compliant NFT.
+* Mint NFTs with custom metadata URIs.
 
 ### Mood NFT Features
 
