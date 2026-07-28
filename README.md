@@ -20,6 +20,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 *  Smart contract interaction scripts for minting and state updates.
 *  Comprehensive unit and integration test suites.
 *  IPFS-based metadata support.
+*  Fully on-chain metadata generation.
 
 
 ### Basic NFT Features
