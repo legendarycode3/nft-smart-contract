@@ -16,6 +16,8 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 ### Basic NFT Features
 
+### Mood NFT Features
+
 
 ## Foundry
 
