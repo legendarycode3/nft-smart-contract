@@ -45,7 +45,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Mood switching (Happy ↔ Sad).
 * Dynamic artwork updates through `tokenURI()`.
 * Data URI metadata support.
-* Initial mood set to
+* Initial mood set to **HAPPY** upon minting.
 
 
 ## Foundry
