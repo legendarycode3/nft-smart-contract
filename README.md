@@ -33,6 +33,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Safe NFT minting using `_safeMint`.
 * Custom `tokenURI()` implementation.
 * Ownership tracking through  the ERC-721 standard.
+* Lightweight and gas-efficient architecture.
 
 ### Mood NFT Features
 
