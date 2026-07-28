@@ -16,8 +16,8 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Demonstrates both traditional and dynamic NFT architectures.
 *  Two ERC-721 NFT implementations.
 *  Built with Solidity,  Foundry, and OpenZeppelin Contracts.
-*  Automated deployment using Foundry scripts.
-*  Smart contract interaction
+*  Automated deployment using Foundry scripts. 
+*  Smart contract interaction scripts for minting and state updates
 
 
 ### Basic NFT Features
