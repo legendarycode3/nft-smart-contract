@@ -47,7 +47,8 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Data URI metadata support.
 * Initial mood set to **HAPPY** upon minting.
 * Owner or approved operator authorization for mood changes.
-* Custom Solidity errors for gas-efficient access control
+* Custom Solidity errors for gas-efficient access control.
+* Enum-based mood state management.
 
 
 ## Foundry
