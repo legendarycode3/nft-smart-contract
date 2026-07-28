@@ -37,7 +37,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 ### Mood NFT Features
 * ERC-721 compliant NFT.
-* Fully on-chain
+* Fully on-chain metadata generation.
 
 
 ## Foundry
