@@ -28,7 +28,8 @@ In addition to the smart contracts, the project provides deployment scripts, int
 ### Basic NFT Features
 * ERC-721 compliant NFT.
 * Mint NFTs with custom metadata URIs.
-* Supports IPFS-hosted metadata
+* Supports IPFS-hosted metadata.
+* Sequential token ID generation.
 
 ### Mood NFT Features
 
