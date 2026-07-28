@@ -22,6 +22,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 *  IPFS-based metadata support.
 *  Fully on-chain metadata generation.
 *  Dynamic SVG artwork rendering.
+*  Base64 encoding for
 
 
 ### Basic NFT Features
