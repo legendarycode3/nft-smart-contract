@@ -13,6 +13,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 ## 📌 Features
 
 ### Overall Features
+* Demonstrates both traditional
 
 ### Basic NFT Features
 
