@@ -30,7 +30,8 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Mint NFTs with custom metadata URIs.
 * Supports IPFS-hosted metadata.
 * Sequential token ID generation.
-* Safe NFT minting using `_safeMint`
+* Safe NFT minting using `_safeMint`.
+* Custom `tokenURI()` implementation.
 
 ### Mood NFT Features
 
