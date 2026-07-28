@@ -40,6 +40,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Fully on-chain metadata generation.
 * Fully on-chain SVG artwork.
 * Base64-encoded JSON metadata.
+* Base64-encoded SVG images.
 
 
 ## Foundry
