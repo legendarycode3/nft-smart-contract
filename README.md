@@ -43,6 +43,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Base64-encoded SVG images.
 * Dynamic NFT state management.
 * Mood switching (Happy ↔ Sad).
+* Dynamic artwork updates
 
 
 ## Foundry
