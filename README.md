@@ -94,6 +94,7 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 * Generate JSON metadata dynamically.
 * Store SVG artwork as Base64 Data URIs.
 * Encode metadata using Base64.
+* Manage NFT mood state using enums.
 
 
 
