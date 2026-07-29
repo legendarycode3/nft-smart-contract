@@ -89,7 +89,8 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 | Standard | ERC-721 |
 ```
 #### Primary Responsibilities
-* Mint dynamic ERC-721 NFTs
+* Mint dynamic ERC-721 NFTs.
+* Generate metadata entirely on-chain.
 
 
 
