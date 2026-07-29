@@ -60,6 +60,12 @@ The **Basic NFT** contract represents a traditional NFT architecture where metad
 The contract maintains  a sequential token ID counter,  safely mints new NFTs to users, stores each token's metadata URI, and overrides the standard `tokenURI()` function to return the correct metadata for every token. </br>
 
 #### Collection
+```shell
+| Property | Value |
+|----------|-------|
+| Name | Doggie |
+| Symbol | DOG |
+| Standard | ERC-721 |```
 
 
 
