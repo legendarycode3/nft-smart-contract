@@ -77,7 +77,7 @@ The contract maintains  a sequential token ID counter,  safely mints new NFTs to
 * Safely mint NFTs using OpenZeppelin's `_safeMint()`.
 
 ### MoodNft.sol
-`MoodNft.sol` is a dynamic ERC-721 implementation that demonstrates how NFTs can evolve after minting.
+`MoodNft.sol` is a dynamic ERC-721 implementation that demonstrates how NFTs can evolve after minting. Instead of relying on external metadata stored on IPFS, 
 
 
 
