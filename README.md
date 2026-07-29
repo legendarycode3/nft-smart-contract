@@ -74,7 +74,7 @@ The contract maintains  a sequential token ID counter,  safely mints new NFTs to
 * Maintain sequential token IDs.
 * Store metadata mappings for each token.
 * Return token metadata through `tokenURI()`.
-* Safely mint NFTs using
+* Safely mint NFTs using OpenZeppelin's `_safeMint()`
 
 
 
