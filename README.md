@@ -70,6 +70,7 @@ The contract maintains  a sequential token ID counter,  safely mints new NFTs to
 
 #### Primary Responsibilities
 * Mint ERC-721 NFTs.
+* Accept custom IPFS metadata
 
 
 
