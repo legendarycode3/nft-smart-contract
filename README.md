@@ -73,7 +73,7 @@ The contract maintains  a sequential token ID counter,  safely mints new NFTs to
 * Accept custom IPFS metadata URIs during minting.
 * Maintain sequential token IDs.
 * Store metadata mappings for each token.
-* Return token 
+* Return token metadata through `tokenURI()`
 
 
 
