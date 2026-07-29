@@ -61,11 +61,14 @@ The contract maintains  a sequential token ID counter,  safely mints new NFTs to
 
 #### Collection
 ```shell
-| Property | Value |
-|----------|-------|
-| Name | Doggie |
-| Symbol | DOG |
-| Standard | ERC-721 |```
+  | Property | Value |
+  |----------|-------|
+  | Name | Doggie |
+  | Symbol | DOG |
+  | Standard | ERC-721 |
+```
+
+#### Primary Responsibilities
 
 
 
