@@ -81,6 +81,13 @@ The contract maintains  a sequential token ID counter,  safely mints new NFTs to
 Each NFT contains one of two emotional states **HAPPY** or **SAD** represented by on-chain SVG artwork. Owners (or approved operators) can change an NFT's mood through the `flipmood()` function, causing the artwork returned by `tokenURI()` to update automatically without modifying the NFT itself.
 
 #### Collection
+```shell
+| Property | Value |
+|----------|-------|
+| Name | Mood NFT |
+| Symbol | MN |
+| Standard | ERC-721 |
+```
 
 
 
