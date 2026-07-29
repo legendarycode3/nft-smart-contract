@@ -55,6 +55,9 @@ In addition to the smart contracts, the project provides deployment scripts, int
 This repository contains  two ERC-721 smart contracts that demonstrate different approaches to NFT development. While both contracts are built on OpenZeppelin's ERC721 implementation and adhere to the ERC-721 standard, they differ significantly in how metadata is stored,  generated, and managed. </br>
 The **Basic NFT** contract represents a traditional NFT architecture where metadata is stored off-chain using IPFS, whereas the **Mood NFT** contract demonstrates a modern dynamic NFT design that generates its metadata entirely on-chain and allows its visual appearance to change based on contract state.
 
+### BasicNft.sol
+
+
 
 ## Foundry
 
