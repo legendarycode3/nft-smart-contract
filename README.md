@@ -52,7 +52,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 
 ## Smart Contracts
-
+This repository contains 
 
 
 ## Foundry
