@@ -97,6 +97,7 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 * Manage NFT mood state using enums.
 * Toggle artwork between Happy and Sad states.
 * Restrict mood changes to the owner or approved operator.
+* Return fully dynamic 
 
 
 
