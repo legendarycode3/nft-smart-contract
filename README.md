@@ -57,7 +57,7 @@ The **Basic NFT** contract represents a traditional NFT architecture where metad
 
 ### BasicNft.sol
 `BasicNft.sol` is a lightweight implementation  of the ERC-721 standard designed to demonstrate the core mechanics of minting traditional NFTs. Rather than generating metadata on-chain, each NFT stores a user-supplied IPFS metadata URI, making it suitable for collections whose metadata and artwork are hosted using decentralized storage. </br>
-The contract maintains  a sequential token ID counter,  safely mints new NFTs to users, stores each token's metadata URI, and overrides the standard `tokenURI()`
+The contract maintains  a sequential token ID counter,  safely mints new NFTs to users, stores each token's metadata URI, and overrides the standard `tokenURI()` function to return the correct metadata for every token.
 
 
 
