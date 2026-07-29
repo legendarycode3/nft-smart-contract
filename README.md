@@ -80,6 +80,8 @@ The contract maintains  a sequential token ID counter,  safely mints new NFTs to
 `MoodNft.sol` is a dynamic ERC-721 implementation that demonstrates how NFTs can evolve after minting. Instead of relying on external metadata stored on IPFS, the contract generates its metadata entirely on-chain by dynamically constructing JSON metadata and encoding it as a Base64 Data URI. </br>
 Each NFT contains one of two emotional states **HAPPY** or **SAD** represented by on-chain SVG artwork. Owners (or approved operators) can change an NFT's mood through the `flipmood()` function, causing the artwork returned by `tokenURI()` to update automatically without modifying the NFT itself.
 
+#### Collection
+
 
 
 ## Foundry
