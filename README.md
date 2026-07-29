@@ -52,7 +52,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 
 ## Smart Contracts
-This repository contains 
+This repository contains  two ERC-721 smart contracts that demonstrate 
 
 
 ## Foundry
