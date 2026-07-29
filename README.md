@@ -50,6 +50,11 @@ In addition to the smart contracts, the project provides deployment scripts, int
 * Custom Solidity errors for gas-efficient access control.
 * Enum-based mood state management.
 
+
+## Smart Contracts
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
