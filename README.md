@@ -92,7 +92,8 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 * Mint dynamic ERC-721 NFTs.
 * Generate metadata entirely on-chain.
 * Generate JSON metadata dynamically.
-* Store SVG artwork as Base64 Data URIs
+* Store SVG artwork as Base64 Data URIs.
+* Encode metadata using Base64.
 
 
 
