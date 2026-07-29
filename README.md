@@ -53,7 +53,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 ## Smart Contracts
 This repository contains  two ERC-721 smart contracts that demonstrate different approaches to NFT development. While both contracts are built on OpenZeppelin's ERC721 implementation and adhere to the ERC-721 standard, they differ significantly in how metadata is stored,  generated, and managed. </br>
-The **Basic NFT** contract represents 
+The **Basic NFT** contract represents a traditional NFT architecture where metadata is stored off-chain using IPFS, 
 
 
 ## Foundry
