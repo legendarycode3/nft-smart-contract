@@ -88,6 +88,7 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 | Symbol | MN |
 | Standard | ERC-721 |
 ```
+#### Primary Responsibilities
 
 
 
