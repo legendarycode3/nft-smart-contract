@@ -52,7 +52,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 
 ## Smart Contracts
-This repository contains  two ERC-721 smart contracts that demonstrate different approaches to NFT development.
+This repository contains  two ERC-721 smart contracts that demonstrate different approaches to NFT development. While both contracts are built on OpenZeppelin's ERC721 implementation
 
 
 ## Foundry
