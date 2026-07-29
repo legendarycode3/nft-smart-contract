@@ -56,7 +56,7 @@ This repository contains  two ERC-721 smart contracts that demonstrate different
 The **Basic NFT** contract represents a traditional NFT architecture where metadata is stored off-chain using IPFS, whereas the **Mood NFT** contract demonstrates a modern dynamic NFT design that generates its metadata entirely on-chain and allows its visual appearance to change based on contract state.
 
 ### BasicNft.sol
-`BasicNft.sol` is a lightweight implementation  of the ERC-721 standard designed to demonstrate the core mechanics of minting traditional NFTs. Rather than generating metadata on-chain, each NFT stores a user-supplied IPFS metadata URI,
+`BasicNft.sol` is a lightweight implementation  of the ERC-721 standard designed to demonstrate the core mechanics of minting traditional NFTs. Rather than generating metadata on-chain, each NFT stores a user-supplied IPFS metadata URI, making it suitable for collections whose metadata and
 
 
 
