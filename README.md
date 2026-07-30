@@ -120,7 +120,7 @@ Unlike the Basic NFT contract, no external metadata URI is required because all 
 * **tokenURI(uint256 tokenId)**: Generates the NFT metadata entirely on-chain. The function determines the NFT's current mood, selects the appropriate SVG artwork, dynamically constructs a JSON metadata object, Base64-encodes the JSON, and returns it as a Data URI compatible with ERC-721 wallets and marketplaces. </br>
 Unlike traditional NFTs that reference metadata stored on IPFS,  this implementation generates metadata on demand whenever `tokenURI()` is called.
 * **_baseURI()**: An internal helper function that returns the standard prefix used when constructing Base64-encoded JSON metadata. </br>
-This function is overridden from OpenZeppelin's 
+This function is overridden from OpenZeppelin's ERC721 implementation and is
 
 
 
