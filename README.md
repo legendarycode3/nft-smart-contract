@@ -101,6 +101,21 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 
 
 
+## Functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
