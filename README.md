@@ -105,6 +105,7 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 
 ### BasicNft
 * **constructor()**: Initializes the `Basic NFT` collection by setting the collection name to `Doggie` and the symbol to `DOG` through the OpenZeppelin ERC-721 constructor.  It also initializes the internal token counter, which is used to assign sequential token IDs to newly minted NFTs.
+* **mintNft(string tokenUrl)**:
 
 #### Actions
 
