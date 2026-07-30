@@ -107,7 +107,7 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 * **constructor()**: Initializes the `Basic NFT` collection by setting the collection name to `Doggie` and the symbol to `DOG` through the OpenZeppelin ERC-721 constructor.  It also initializes the internal token counter, which is used to assign sequential token IDs to newly minted NFTs.
 * **mintNft(string tokenUrl)**: Creates a new ERC-721 NFT and safely assigns ownership to the caller (`msg.sender`). During the minting process, the supplied metadata URI is stored and permanently associated with the newly created token before the NFT is minted. </br>
 This function allows users to mint NFTs that reference metadata hosted on decentralized storage platforms such as IPFS.
-* **tokenURI(uint256 tokenId)**: Returns the metadata URI associated
+* **tokenURI(uint256 tokenId)**: Returns the metadata URI associated overrides OpenZeppelin's default implementation
 
 #### Actions
 
