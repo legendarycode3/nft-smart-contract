@@ -102,7 +102,11 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 
 
 ## Functions
+
 ### BasicNft
+
+
+### MoodNft
 
 
 
