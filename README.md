@@ -117,7 +117,7 @@ This function allows users to mint NFTs that reference metadata hosted on decent
 * **mintNft()**: Creates a new dynamic NFT and safely assigns ownership to the caller.  Every newly minted NFT begins with its mood initialized to `HAPPY`. </br>
 Unlike the Basic NFT contract, no external metadata URI is required because all metadata is generated entirely on-chain.
 * **flipmood(uint256 tokenId)**: Updates the emotional state of an NFT by toggling its mood between `HAPPY` and `SAD`. Before performing the update, the contract verifies that the caller is either the token owner or an approved operator. Changing the mood automatically changes the artwork and metadata returned by future calls to `tokenURI()`.
-* **tokenURI(uint256 tokenId)**:
+* **tokenURI(uint256 tokenId)**: Generates the NFT metadata entirely on-chain.
 
 
 
