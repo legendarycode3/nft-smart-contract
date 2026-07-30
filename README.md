@@ -109,8 +109,6 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 This function allows users to mint NFTs that reference metadata hosted on decentralized storage platforms such as IPFS.
 * **tokenURI(uint256 tokenId)**: Returns the metadata URI associated overrides OpenZeppelin's default implementation to retrieve the custom metadata URI stored during minting.
 
-#### Actions
-
 
 ### MoodNft
 * **constructor(string sadSvgImageUri, string happySvgImageUri)**: Initializes the `Mood NFT` collection by configuring the collection name, symbol, and the SVG artwork used to represent each mood state. The supplied SVG images are stored as Base64-encoded Data URIs and serve as the visual assets  for every NFT minted by the contract. The constructor also initializes the internal token counter used to assign sequential token IDs.
@@ -121,17 +119,6 @@ Unlike the Basic NFT contract, no external metadata URI is required because all 
 Unlike traditional NFTs that reference metadata stored on IPFS,  this implementation generates metadata on demand whenever `tokenURI()` is called.
 * **_baseURI()**: An internal helper function that returns the standard prefix used when constructing Base64-encoded JSON metadata. </br>
 This function is overridden from OpenZeppelin's ERC721 implementation and is used internally by `tokenURI()`.
-
-
-
-
-
-
-
-
-
-
-
 
 
 
