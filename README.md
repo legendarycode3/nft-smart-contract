@@ -116,7 +116,7 @@ This function allows users to mint NFTs that reference metadata hosted on decent
 * **constructor(string sadSvgImageUri, string happySvgImageUri)**: Initializes the `Mood NFT` collection by configuring the collection name, symbol, and the SVG artwork used to represent each mood state. The supplied SVG images are stored as Base64-encoded Data URIs and serve as the visual assets  for every NFT minted by the contract. The constructor also initializes the internal token counter used to assign sequential token IDs.
 * **mintNft()**: Creates a new dynamic NFT and safely assigns ownership to the caller.  Every newly minted NFT begins with its mood initialized to `HAPPY`. </br>
 Unlike the Basic NFT contract, no external metadata URI is required because all metadata is generated entirely on-chain.
-* **flipmood(uint256 tokenId)**: Updates the emotional state of an NFT by toggling its mood between `HAPPY` and `SAD`. Before performing the update, the contract verifies that the caller is either the token owner or an approved operator.
+* **flipmood(uint256 tokenId)**: Updates the emotional state of an NFT by toggling its mood between `HAPPY` and `SAD`. Before performing the update, the contract verifies that the caller is either the token owner or an approved operator. Changing the mood automatically changes the artwork
 
 
 
