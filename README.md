@@ -113,7 +113,7 @@ This function allows users to mint NFTs that reference metadata hosted on decent
 
 
 ### MoodNft
-* **constructor(string sadSvgImageUri, string happySvgImageUri)**: Initializes the `Mood NFT` collection by configuring the collection name,
+* **constructor(string sadSvgImageUri, string happySvgImageUri)**: Initializes the `Mood NFT` collection by configuring the collection name, symbol, and the SVG artwork used to represent each mood state. 
 
 
 
