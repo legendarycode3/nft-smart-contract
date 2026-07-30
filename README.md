@@ -119,6 +119,7 @@ Unlike the Basic NFT contract, no external metadata URI is required because all 
 * **flipmood(uint256 tokenId)**: Updates the emotional state of an NFT by toggling its mood between `HAPPY` and `SAD`. Before performing the update, the contract verifies that the caller is either the token owner or an approved operator. Changing the mood automatically changes the artwork and metadata returned by future calls to `tokenURI()`.
 * **tokenURI(uint256 tokenId)**: Generates the NFT metadata entirely on-chain. The function determines the NFT's current mood, selects the appropriate SVG artwork, dynamically constructs a JSON metadata object, Base64-encodes the JSON, and returns it as a Data URI compatible with ERC-721 wallets and marketplaces. </br>
 Unlike traditional NFTs that reference metadata stored on IPFS,  this implementation generates metadata on demand whenever `tokenURI()` is called.
+* **_baseURI()**:
 
 
 
