@@ -104,7 +104,7 @@ Each NFT contains one of two emotional states **HAPPY** or **SAD** represented b
 ## Functions
 
 ### BasicNft
-* **constructor()**: Initializes the `Basic NFT` collection by setting the collection
+* **constructor()**: Initializes the `Basic NFT` collection by setting the collection name to `Doggie` and the symbol to `DOG`
 
 
 ### MoodNft
