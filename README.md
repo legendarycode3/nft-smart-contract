@@ -56,7 +56,7 @@ The repository demonstrates two different approaches to ERC-721 NFT development:
 ```
 
 ### Repository Components
-The repository is organized 
+The repository is organized into several independent components,
 
 
 
