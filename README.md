@@ -18,6 +18,42 @@ The repository demonstrates two different approaches to ERC-721 NFT development:
 * **Mood NFT**: which generates metadata entirely on-chain using Base64-encoded JSON and SVG images. </br>
 
 ### High-Level Architecture
+```shell
+  +----------------------+
+                              |        User          |
+                              +----------+-----------+
+                                         |
+                          Mint / View / Update NFT
+                                         |
+                 +-----------------------+-----------------------+
+                 |                                               |
+                 ▼                                               ▼
+        +----------------------+                      +----------------------+
+        |      BasicNft        |                      |       MoodNft        |
+        |----------------------|                      |----------------------|
+        | ERC721               |                      | ERC721               |
+        | Mint NFTs            |                      | Mint NFTs            |
+        | Store IPFS URI       |                      | Store Mood State     |
+        | Return tokenURI()    |                      | Generate Metadata    |
+        +----------+-----------+                      | Base64 Encoding      |
+                   |                                  | SVG Artwork          |
+                   |                                  +----------+-----------+
+                   |                                             |
+                   ▼                                             ▼
+           +----------------+                        +------------------------+
+           | IPFS Metadata  |                        | On-chain Metadata      |
+           | JSON + Images  |                        | JSON + SVG Data URI    |
+           +----------------+                        +------------------------+
+
+                         +--------------------------------+
+                         |     Foundry Development         |
+                         |--------------------------------|
+                         | Deployment Scripts             |
+                         | Interaction Scripts            |
+                         | Unit Tests                     |
+                         | Integration Tests              |
+                         +--------------------------------+
+```
 
 
 
