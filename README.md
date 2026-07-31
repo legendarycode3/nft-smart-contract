@@ -65,6 +65,7 @@ The `src` directory contains the core ERC-721 smart contracts. Implements a trad
 
 Responsibilities include: </br>
 1. Minting NFTs.
+2. Assigning ownership
 
 * **MoodNft.sol**: Implements a dynamic ERC-721 NFT capable of changing its appearance after minting.
 
