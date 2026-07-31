@@ -19,7 +19,7 @@ The repository demonstrates two different approaches to ERC-721 NFT development:
 
 ### High-Level Architecture
 ```shell
-  +----------------------+
+                              +----------------------+
                               |        User          |
                               +----------+-----------+
                                          |
@@ -55,6 +55,7 @@ The repository demonstrates two different approaches to ERC-721 NFT development:
                          +--------------------------------+
 ```
 
+### Repository Components
 
 
 
