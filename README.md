@@ -61,7 +61,11 @@ The repository is organized into several independent components, each with a ded
 #### Smart Contracts
 The `src` directory contains the core ERC-721 smart contracts. Implements a traditional ERC-721 NFT where metadata is stored externally using IPFS.
 
-* **BasicNft.sol**:
+* **BasicNft.sol**: </br>
+
+Responsibilities include: </br>
+1. Minting NFTs.
+
 * **MoodNft.sol**: Implements a dynamic ERC-721 NFT capable of changing its appearance after minting.
 
 
