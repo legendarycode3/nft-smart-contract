@@ -11,6 +11,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 
 ## Architecture
+The project follows a modular
 
 
 
