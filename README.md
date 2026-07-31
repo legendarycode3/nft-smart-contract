@@ -11,7 +11,7 @@ In addition to the smart contracts, the project provides deployment scripts, int
 
 
 ## Architecture
-The project follows a modular architecture that separates NFT logic,
+The project follows a modular architecture that separates NFT logic, deployment automation,
 
 
 
