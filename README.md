@@ -15,7 +15,9 @@ The project follows a modular architecture that separates NFT logic, deployment 
 The repository demonstrates two different approaches to ERC-721 NFT development: </br>
 
 * **Basic NFT**: which stores metadata off-chain using IPFS.
-* **Mood NFT**: which generates metadata entirely on-chain using Base64-encoded JSON and SVG images.
+* **Mood NFT**: which generates metadata entirely on-chain using Base64-encoded JSON and SVG images. </br>
+
+### High-Level Architecture
 
 
 
