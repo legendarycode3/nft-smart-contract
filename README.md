@@ -67,7 +67,8 @@ Responsibilities include: </br>
 1. Minting NFTs.
 2. Assigning ownership.
 3. Managing sequential token IDs.
-4. Storing metadata URIs
+4. Storing metadata URIs.
+5. Returning token metadata.
 
 * **MoodNft.sol**: Implements a dynamic ERC-721 NFT capable of changing its appearance after minting.
 
