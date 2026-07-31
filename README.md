@@ -59,7 +59,8 @@ The repository demonstrates two different approaches to ERC-721 NFT development:
 The repository is organized into several independent components, each with a dedicated responsibility. </br>
 
 #### Smart Contracts
-The `src` directory contains the core ERC-721 smart contracts.
+The `src` directory contains the core ERC-721 smart contracts. Implements a traditional ERC-721
+
 * **BasicNft.sol**:
 
 
