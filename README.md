@@ -82,7 +82,7 @@ Responsibilities include: </br>
 
 
 #### Deployment Layer
-Deployment scripts automate
+Deployment scripts automate contract deployment using Foundry.
 
 
 
