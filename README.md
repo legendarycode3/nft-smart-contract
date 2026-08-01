@@ -101,6 +101,8 @@ Responsible for: </br>
 * Passing artwork to the constructor.
 
 
+#### Interaction Layer
+
 
 
 ## 📌 Features
