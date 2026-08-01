@@ -78,6 +78,7 @@ Responsibilities include: </br>
 * Generating metadata on-chain.
 * Encoding JSON using Base64.
 * Encoding SVG artwork.
+* Dynamically updating NFT artwork.
 
 
 
