@@ -77,6 +77,7 @@ Responsibilities include: </br>
 * Managing mood states.
 * Generating metadata on-chain.
 * Encoding JSON using Base64.
+* Encoding SVG artwork.
 
 
 
