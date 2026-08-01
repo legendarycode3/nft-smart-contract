@@ -108,7 +108,9 @@ Supported interactions include: </br>
 * Minting Basic NFTs.
 * Minting Mood NFTs.
 * Flipping NFT moods.
-* Automatically locating the latest
+* Automatically locating the latest deployed contract using Foundry DevOps tools.
+
+
 
 
 
