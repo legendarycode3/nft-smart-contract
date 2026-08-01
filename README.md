@@ -82,6 +82,8 @@ Responsibilities include: </br>
 
 
 #### Deployment Layer
+Deployment scripts automate
+
 
 
 
