@@ -74,6 +74,7 @@ Responsibilities include: </br>
 
 Responsibilities include: </br>
 * Minting NFTs.
+* Managing mood states.
 
 
 
