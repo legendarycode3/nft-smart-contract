@@ -108,6 +108,7 @@ Supported interactions include: </br>
 * Minting Basic NFTs.
 * Minting Mood NFTs.
 * Flipping NFT moods.
+* Automatically locating the latest
 
 
 
