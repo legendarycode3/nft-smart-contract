@@ -102,6 +102,7 @@ Responsible for: </br>
 
 
 #### Interaction Layer
+Interaction scripts simplify
 
 
 
