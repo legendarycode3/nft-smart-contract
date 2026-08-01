@@ -102,7 +102,7 @@ Responsible for: </br>
 
 
 #### Interaction Layer
-Interaction scripts simplify
+Interaction scripts simplify common user operations after deployment. </br>
 
 
 
