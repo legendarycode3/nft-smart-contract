@@ -84,7 +84,10 @@ Responsibilities include: </br>
 
 #### Deployment Layer
 Deployment scripts automate contract deployment using Foundry. </br>
-* **DeployBasicNft.s.sol**:
+
+* **DeployBasicNft.s.sol**: </br>
+
+Responsible for: </br>
 
 
 
