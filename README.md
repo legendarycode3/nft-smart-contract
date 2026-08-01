@@ -88,7 +88,7 @@ Deployment scripts automate contract deployment using Foundry. </br>
 * **DeployBasicNft.s.sol**: </br>
 
 Responsible for: </br>
-
+* Deploying the Basic NFT collection.
 
 
 
