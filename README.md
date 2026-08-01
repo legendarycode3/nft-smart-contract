@@ -106,6 +106,7 @@ Interaction scripts simplify common user operations after deployment. </br>
 
 Supported interactions include: </br>
 * Minting Basic NFTs.
+* Minting Mood NFTs/
 
 
 
