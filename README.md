@@ -92,7 +92,9 @@ Responsible for: </br>
 * Initializing collection metadata.
 * Broadcasting deployment transactions.
 
-* **eployMoodNft.s.sol**:
+* **DeployMoodNft.s.sol**:
+
+Responsible for: </br>
 
 
 
