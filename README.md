@@ -90,6 +90,7 @@ Deployment scripts automate contract deployment using Foundry. </br>
 Responsible for: </br>
 * Deploying the Basic NFT collection.
 * Initializing collection metadata.
+* Broadcasting deployment transactions.
 
 
 
