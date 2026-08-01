@@ -74,8 +74,8 @@ Responsibilities include: </br>
 * **MoodNft.sol**: Implements a dynamic ERC-721 NFT capable of changing its appearance after minting. </br>
 
 Responsibilities include: </br>
-* Minting NFTs.
-* Managing mood states.
+  * Minting NFTs.
+  * Managing mood states.
 * Generating metadata on-chain.
 * Encoding JSON using Base64.
 * Encoding SVG artwork.
@@ -110,6 +110,8 @@ Supported interactions include: </br>
 * Flipping NFT moods.
 * Automatically locating the latest deployed contract using Foundry DevOps tools.
 
+
+#### Testing Layer
 
 
 
