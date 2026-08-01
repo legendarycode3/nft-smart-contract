@@ -74,12 +74,12 @@ Responsibilities include: </br>
 * **MoodNft.sol**: Implements a dynamic ERC-721 NFT capable of changing its appearance after minting. </br>
 
 Responsibilities include: </br>
-   * Minting NFTs.
-  * Managing mood states.
-* Generating metadata on-chain.
-* Encoding JSON using Base64.
-* Encoding SVG artwork.
-* Dynamically updating NFT artwork.
+1. Minting NFTs.
+2. Managing mood states.
+3. Generating metadata on-chain.
+4. Encoding JSON using Base64.
+5. Encoding SVG artwork.
+6. Dynamically updating NFT artwork.
 
 
 #### Deployment Layer
@@ -88,31 +88,37 @@ Deployment scripts automate contract deployment using Foundry. </br>
 * **DeployBasicNft.s.sol**: </br>
 
 Responsible for: </br>
-* Deploying the Basic NFT collection.
-* Initializing collection metadata.
-* Broadcasting deployment transactions.
+1. Deploying the Basic NFT collection.
+2. Initializing collection metadata.
+3. Broadcasting deployment transactions.
 
 * **DeployMoodNft.s.sol**:
 
 Responsible for: </br>
-* Reading SVG artwork.
-* Encoding SVG images into Base64 Data URIs.
-* Deploying the Mood NFT contract.
-* Passing artwork to the constructor.
+1. Reading SVG artwork.
+2. Encoding SVG images into Base64 Data URIs.
+3. Deploying the Mood NFT contract.
+4. Passing artwork to the constructor.
 
 
 #### Interaction Layer
 Interaction scripts simplify common user operations after deployment. </br>
 
 Supported interactions include: </br>
-* Minting Basic NFTs.
-* Minting Mood NFTs.
-* Flipping NFT moods.
-* Automatically locating the latest deployed contract using Foundry DevOps tools.
+1. Minting Basic NFTs.
+2. Minting Mood NFTs.
+3. Flipping NFT moods.
+4. Automatically locating the latest deployed contract using Foundry DevOps tools.
 
 
 #### Testing Layer
 The repository includes both unit and integration testing. </br>
+
+* **Unit Tests**:
+
+
+
+
 
 
 
