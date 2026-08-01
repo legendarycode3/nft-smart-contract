@@ -73,6 +73,7 @@ Responsibilities include: </br>
 * **MoodNft.sol**: Implements a dynamic ERC-721 NFT capable of changing its appearance after minting. </br>
 
 Responsibilities include: </br>
+* Minting NFTs.
 
 
 
