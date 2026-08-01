@@ -96,7 +96,7 @@ Responsible for: </br>
 
 Responsible for: </br>
 * Reading SVG artwork.
-* Encoding SVG images into
+* Encoding SVG images into Base64 Data URIs.
 
 
 
