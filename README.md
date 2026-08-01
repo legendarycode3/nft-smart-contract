@@ -95,6 +95,7 @@ Responsible for: </br>
 * **DeployMoodNft.s.sol**:
 
 Responsible for: </br>
+* Reading SVG artwork.
 
 
 
