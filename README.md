@@ -226,7 +226,7 @@ The architecture follows  several important software engineering principles: </b
 2. **Single Responsibility Principle**: Each contract and script performs a well-defined task.
 3. **Standards Compliance**:  Built on OpenZeppelin's ERC-721 implementation.
 4. **Automation**: Foundry scripts automate deployment and post-deployment interactions.
-5. **Security**: Ownership checks restrict sensitive
+5. **Security**: Ownership checks restrict sensitive state changes such as mood updates.
 
 
 
