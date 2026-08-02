@@ -159,6 +159,27 @@ Stores IPFS URI               Generates Metadata
 ### System Workflow
 
 #### Basic NFT Flow
+```shell
+  User
+ │
+ │ mintNft(IPFS URI)
+ ▼
+BasicNft
+ │
+ ├── Stores metadata URI
+ ├── Safely mints NFT
+ ├── Assigns ownership
+ └── Increments token ID
+       │
+       ▼
+NFT Created
+       │
+       ▼
+Marketplace calls tokenURI()
+       │
+       ▼
+Metadata fetched from IPFS
+```
 
 
 
