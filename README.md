@@ -181,6 +181,8 @@ Marketplace calls tokenURI()
 Metadata fetched from IPFS
 ```
 
+#### Mood NFT Flow
+
 
 
 
