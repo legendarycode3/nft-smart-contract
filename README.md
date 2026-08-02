@@ -222,7 +222,7 @@ Return Data URI
 
 ### Design Principles
 The architecture follows  several important software engineering principles: </br>
-1. **Modularity**: Smart contracts, deployment scripts, 
+1. **Modularity**: Smart contracts, deployment scripts, interaction scripts,
 
 
 
