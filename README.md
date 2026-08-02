@@ -220,6 +220,9 @@ Return Data URI
 ```
 
 
+### Design Principles
+
+
 
 
 
