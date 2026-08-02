@@ -160,7 +160,7 @@ Stores IPFS URI               Generates Metadata
 
 #### Basic NFT Flow
 ```shell
-  User
+User
  │
  │ mintNft(IPFS URI)
  ▼
@@ -182,6 +182,42 @@ Metadata fetched from IPFS
 ```
 
 #### Mood NFT Flow
+```shell
+  Deploy Contract
+ │
+ ▼
+Load SVG Files
+ │
+ ▼
+Convert SVG → Base64
+ │
+ ▼
+Deploy MoodNft
+ │
+ ▼
+User mints NFT
+ │
+ ▼
+Mood = HAPPY
+ │
+ ▼
+flipmood()
+ │
+ ▼
+Mood Changes
+ │
+ ▼
+tokenURI()
+ │
+ ▼
+Generate JSON Metadata
+ │
+ ▼
+Encode Metadata
+ │
+ ▼
+Return Data URI
+```
 
 
 
