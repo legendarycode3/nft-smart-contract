@@ -221,6 +221,7 @@ Return Data URI
 
 
 ### Design Principles
+The architecture follows
 
 
 
