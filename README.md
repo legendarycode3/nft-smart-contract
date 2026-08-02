@@ -55,6 +55,7 @@ The repository demonstrates two different approaches to ERC-721 NFT development:
                          +--------------------------------+
 ```
 
+
 ### Repository Components
 The repository is organized into several independent components, each with a dedicated responsibility. </br>
 
@@ -118,6 +119,8 @@ The repository includes both unit and integration testing. </br>
   
 * **Integration Tests**:
 
+
+### Component Relationships
 
 
 
