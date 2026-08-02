@@ -228,7 +228,7 @@ The architecture follows  several important software engineering principles: </b
 4. **Automation**: Foundry scripts automate deployment and post-deployment interactions.
 5. **Security**: Ownership checks restrict sensitive state changes such as mood updates.
 6. **Maintainability**: Clear separation of concerns simplifies future enhancements and testing.
-7. **Extensibility**:
+7. **Extensibility**: Additional NFT collections,
 
 
 
