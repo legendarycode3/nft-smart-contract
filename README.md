@@ -158,6 +158,8 @@ Stores IPFS URI               Generates Metadata
 
 ### System Workflow
 
+#### Basic NFT Flow
+
 
 
 
