@@ -122,39 +122,41 @@ The repository includes both unit and integration testing. </br>
 
 ### Component Relationships
 ```shell
-     +----------------------+
-                    |        User          |
-                    +----------+-----------+
-                               |
-                               ▼
-                     Calls Contract Functions
-                               |
-               +---------------+---------------+
-               |                               |
-               ▼                               ▼
-       +---------------+               +---------------+
-       |   BasicNft    |               |    MoodNft    |
-       +-------+-------+               +-------+-------+
-               |                               |
-               ▼                               ▼
-      Stores IPFS URI               Generates Metadata
-               |                               |
-               ▼                               ▼
-           IPFS Storage            Base64 JSON + SVG
-                              
-               ▲                               ▲
-               |                               |
-       +-------+-------------------------------+------+
-       |            Interaction Scripts               |
-       +-----------------------+----------------------+
-                               |
-                               ▼
-                     Deployment Scripts
-                               |
-                               ▼
-                         Foundry Framework
+            +----------------------+
+            |        User          |
+            +----------+-----------+
+                       |
+                       ▼
+             Calls Contract Functions
+                       |
+       +---------------+---------------+
+       |                               |
+       ▼                               ▼
++---------------+               +---------------+
+|   BasicNft    |               |    MoodNft    |
++-------+-------+               +-------+-------+
+       |                               |
+       ▼                               ▼
+Stores IPFS URI               Generates Metadata
+       |                               |
+       ▼                               ▼
+   IPFS Storage            Base64 JSON + SVG
+                      
+       ▲                               ▲
+       |                               |
++-------+-------------------------------+------+
+|            Interaction Scripts               |
++-----------------------+----------------------+
+                       |
+                       ▼
+             Deployment Scripts
+                       |
+                       ▼
+                 Foundry Framework           
 ```
 
+
+### System Workflow
 
 
 
