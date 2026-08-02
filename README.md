@@ -221,7 +221,7 @@ Return Data URI
 
 
 ### Design Principles
-The architecture follows
+The architecture follows  several important software engineering principles:
 
 
 
