@@ -223,7 +223,7 @@ Return Data URI
 ### Design Principles
 The architecture follows  several important software engineering principles: </br>
 1. **Modularity**: Smart contracts, deployment scripts, interaction scripts, and tests are separated into dedicated components.
-2. **Single Responsibility Principle**: Each contract and script 
+2. **Single Responsibility Principle**: Each contract and script performs a well-defined task.
 
 
 
