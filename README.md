@@ -127,6 +127,7 @@ Validate complete workflows, including: </br>
 2. NFT minting.
 3. Metadata generation.
 4. Mood switching.
+5. Ownership validation.
 
 ### Component Relationships
 ```shell
