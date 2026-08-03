@@ -118,6 +118,7 @@ The repository includes both unit and integration testing. </br>
 * **Unit Tests**:
 Validate individual components  in isolation, including: </br>
 1. SVG encoding.
+2. Deployment utilities.
   
 * **Integration Tests**:
 
