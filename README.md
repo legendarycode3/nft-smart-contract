@@ -125,6 +125,7 @@ Validate individual components  in isolation, including: </br>
 Validate complete workflows, including: </br>
 1. Contract deployment.
 2. NFT minting.
+3. Metadata generation.
 
 ### Component Relationships
 ```shell
