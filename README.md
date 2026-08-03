@@ -355,7 +355,7 @@ This function is overridden from OpenZeppelin's ERC721 implementation and is use
 
 
 ## Technologies Used
-The project is built using a modern Ethereum development stack focused on standards-compliant NFT development,
+The project is built using a modern Ethereum development stack focused on standards-compliant NFT development, deployment automation,
 
 
 ## Foundry
