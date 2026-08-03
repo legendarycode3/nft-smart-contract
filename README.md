@@ -116,6 +116,7 @@ Supported interactions include: </br>
 The repository includes both unit and integration testing. </br>
 
 * **Unit Tests**:
+Validate individual components
   
 * **Integration Tests**:
 
