@@ -123,6 +123,7 @@ Validate individual components  in isolation, including: </br>
   
 * **Integration Tests**:
 Validate complete workflows, including: </br>
+1. Contract deployment
 
 ### Component Relationships
 ```shell
