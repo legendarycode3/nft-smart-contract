@@ -380,6 +380,9 @@ The project is built using a modern Ethereum development stack focused on standa
     cd nft-smart-contract
 ```
 2. Install dependencies: </br>
+```shell
+    make install
+```
 
 
 ## Foundry
