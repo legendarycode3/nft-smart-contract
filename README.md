@@ -372,6 +372,7 @@ The project is built using a modern Ethereum development stack focused on standa
 
 
 ### Installation
+1. Clone the repository:
 
 
 
