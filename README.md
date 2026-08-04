@@ -376,6 +376,10 @@ The project is built using a modern Ethereum development stack focused on standa
 ```shell
     https://github.com/legendarycode3/nft-smart-contract
 ```
+```shell
+    cd nft-smart-contract
+```
+2. 
 
 
 ## Foundry
