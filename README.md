@@ -384,6 +384,9 @@ The project is built using a modern Ethereum development stack focused on standa
     make install
 ```
 3. Build the project: </br>
+```shell
+   forge build
+```
 
 
 
