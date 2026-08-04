@@ -362,6 +362,11 @@ The project is built using a modern Ethereum development stack focused on standa
 * **ERC-721 Standard**: Defines the standard interface for non-fungible tokens, ensuring compatibility with wallets, marketplaces, and blockchain explorers.
 
 
+
+## Getting Started
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
