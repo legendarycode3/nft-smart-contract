@@ -370,6 +370,11 @@ The project is built using a modern Ethereum development stack focused on standa
 * [GIT](https://git-scm.com/) </br>
     * Verify installation: `git --version`
 
+
+### Installation
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
