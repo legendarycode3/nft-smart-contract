@@ -359,7 +359,7 @@ The project is built using a modern Ethereum development stack focused on standa
 * **Solidity (^0.8.18)**: The primary programming language used to develop the ERC-721 smart contracts and implement the NFT logic.
 * **Foundry**: An Ethereum development framework used for compiling, testing, deploying, debugging, and interacting with the smart contracts through automated scripts.
 * **OpenZeppelin Contracts**: Provides secure and audited implementations of the ERC-721 standard, enabling standards-compliant NFT ownership, transfers, approvals,  and safe minting.
-* **ERC-721 Standard**: Defines the standard interface for non-fungible tokens,
+* **ERC-721 Standard**: Defines the standard interface for non-fungible tokens, ensuring compatibility with wallets,
 
 
 ## Foundry
