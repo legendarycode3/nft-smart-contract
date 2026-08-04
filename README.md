@@ -372,8 +372,10 @@ The project is built using a modern Ethereum development stack focused on standa
 
 
 ### Installation
-1. Clone the repository:
-
+1. Clone the repository: </br>
+```shell
+    https://github.com/legendarycode3/nft-smart-contract
+```
 
 
 ## Foundry
