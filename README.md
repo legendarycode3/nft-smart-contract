@@ -365,7 +365,8 @@ The project is built using a modern Ethereum development stack focused on standa
 
 ## Getting Started
 ### Prerequisites
-* [FOUNDRY](https://www.getfoundry.sh/introduction/installation)
+* [FOUNDRY](https://www.getfoundry.sh/introduction/installation) </br>
+    * Verify installation: `forge --version` 
 
 
 ## Foundry
