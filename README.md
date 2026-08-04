@@ -364,7 +364,7 @@ The project is built using a modern Ethereum development stack focused on standa
 
 
 ## Getting Started
-
+### Prerequisites
 
 
 ## Foundry
