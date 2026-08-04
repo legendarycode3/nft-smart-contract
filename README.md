@@ -388,6 +388,9 @@ The project is built using a modern Ethereum development stack focused on standa
    forge build
 ```
 Or, if using the provided `Makefile`: </br>
+```shell
+   make build
+```
 
 
 ## Foundry
