@@ -383,6 +383,8 @@ The project is built using a modern Ethereum development stack focused on standa
 ```shell
     make install
 ```
+3. Build the project: </br>
+
 
 
 ## Foundry
