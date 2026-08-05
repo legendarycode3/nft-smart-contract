@@ -409,7 +409,7 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 * **Dynamic Metadata Generation**: Rather than storing complete metadata for every NFT on-chain, the `MoodNft` contract generates JSON metadata dynamically within the `tokenURI()` function. This minimizes persistent storage usage while ensuring the returned metadata always reflects the NFT's current mood.
 * **Minimal Persistent Storage**: Both contracts maintain only the essential state variables required for their functionality, reducing expensive storage operations and lowering deployment and execution costs.
 * **Inherited ERC-721 Implementation**: By leveraging OpenZeppelin's optimized ERC-721 implementation, the contracts benefit from well-tested and gas-conscious token management logic instead of duplicating standard functionality.
-* **Efficient State Updates**: State variables are modified only when necessary. For example, mood changes update only the affected NFT's state,
+* **Efficient State Updates**: State variables are modified only when necessary. For example, mood changes update only the affected NFT's state, while minting operations write only the required ownership,
 
 
 
