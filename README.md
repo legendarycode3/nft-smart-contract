@@ -404,7 +404,7 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 * **Sequential Token IDs**: Both NFT contracts use a simple incremental counter to generate unique token IDs. This approach avoids unnecessary computations and provides an efficient mechanism for assigning identifiers to newly minted NFTs.
 * **Optimized Storage Mappings**: Token metadata and mood states are stored using Solidity mappings, enabling constant-time (`O(1)`) lookups while avoiding the overhead associated with more complex storage structures.
 * **Custom Errors**: The `MoodNft` contract uses custom Solidity errors instead of revert strings for access control validation. This reduces deployment bytecode size and significantly lowers gas consumption whenever a transaction reverts.
-* **Compact Enum Storage**: The NFT mood is represented using a Solidity `enum`, which stores the state in a compact format. 
+* **Compact Enum Storage**: The NFT mood is represented using a Solidity `enum`, which stores the state in a compact format. Compared to storing strings or larger data types,
 
 
 
