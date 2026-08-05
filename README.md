@@ -407,6 +407,7 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 * **Compact Enum Storage**: The NFT mood is represented using a Solidity `enum`, which stores the state in a compact format. Compared to storing strings or larger data types, enums require less storage and reduce gas costs for both reads and writes.
 * **One-Time SVG Encoding**: SVG artwork is converted into Base64 Data URIs during deployment and stored only once within the contract. This eliminates repeated encoding operations and allows the same artwork to be reused whenever NFT metadata is requested.
 * **Dynamic Metadata Generation**: Rather than storing complete metadata for every NFT on-chain, the `MoodNft` contract generates JSON metadata dynamically within the `tokenURI()` function. This minimizes persistent storage usage while ensuring the returned metadata always reflects the NFT's current mood.
+* **Minimal Persistent Storage**:
 
 
 
