@@ -401,7 +401,7 @@ Or, if using the provided `Makefile`: </br>
 ## Gas Optimizations
 The smart contracts incorporate several gas optimization techniques to reduce deployment costs, minimize transaction execution fees, and improve overall contract efficiency while maintaining readability and compliance with the ERC-721 standard. </br>
 
-* **Sequential Token IDs**: Both NFT contracts use a simple incremental counter to generate unique token IDs. This approach avoids unnecessary computations and provides an efficient mechanism for
+* **Sequential Token IDs**: Both NFT contracts use a simple incremental counter to generate unique token IDs. This approach avoids unnecessary computations and provides an efficient mechanism for assigning identifiers to newly minted NFTs.
 
 
 
