@@ -399,6 +399,7 @@ Or, if using the provided `Makefile`: </br>
 
 
 ## Gas Optimizations
+The smart contracts
 
 
 
