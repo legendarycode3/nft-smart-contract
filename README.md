@@ -399,7 +399,7 @@ Or, if using the provided `Makefile`: </br>
 
 
 ## Gas Optimizations
-The smart contracts incorporate several gas optimization techniques to reduce deployment costs, minimize transaction execution fees, 
+The smart contracts incorporate several gas optimization techniques to reduce deployment costs, minimize transaction execution fees, and improve overall contract efficiency while
 
 
 
