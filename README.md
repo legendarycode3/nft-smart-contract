@@ -408,7 +408,8 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 * **One-Time SVG Encoding**: SVG artwork is converted into Base64 Data URIs during deployment and stored only once within the contract. This eliminates repeated encoding operations and allows the same artwork to be reused whenever NFT metadata is requested.
 * **Dynamic Metadata Generation**: Rather than storing complete metadata for every NFT on-chain, the `MoodNft` contract generates JSON metadata dynamically within the `tokenURI()` function. This minimizes persistent storage usage while ensuring the returned metadata always reflects the NFT's current mood.
 * **Minimal Persistent Storage**: Both contracts maintain only the essential state variables required for their functionality, reducing expensive storage operations and lowering deployment and execution costs.
-* **Inherited ERC-721 Implementation**: By leveraging OpenZeppelin's optimized ERC-721 implementation, the contracts benefit from well-tested and gas-conscious token management logic
+* **Inherited ERC-721 Implementation**: By leveraging OpenZeppelin's optimized ERC-721 implementation, the contracts benefit from well-tested and gas-conscious token management logic instead of duplicating standard functionality.
+
 
 
 
