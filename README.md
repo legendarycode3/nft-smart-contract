@@ -405,7 +405,7 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 * **Optimized Storage Mappings**: Token metadata and mood states are stored using Solidity mappings, enabling constant-time (`O(1)`) lookups while avoiding the overhead associated with more complex storage structures.
 * **Custom Errors**: The `MoodNft` contract uses custom Solidity errors instead of revert strings for access control validation. This reduces deployment bytecode size and significantly lowers gas consumption whenever a transaction reverts.
 * **Compact Enum Storage**: The NFT mood is represented using a Solidity `enum`, which stores the state in a compact format. Compared to storing strings or larger data types, enums require less storage and reduce gas costs for both reads and writes.
-* **One-Time SVG Encoding**: SVG artwork is converted into Base64 Data URIs during deployment and stored only once within the contract. This eliminates repeated encoding operations 
+* **One-Time SVG Encoding**: SVG artwork is converted into Base64 Data URIs during deployment and stored only once within the contract. This eliminates repeated encoding operations and allows the same artwork to be reused
 
 
 
