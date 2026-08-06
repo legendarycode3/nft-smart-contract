@@ -422,6 +422,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Custom Errors**: Access control failures use custom Solidity errors instead of revert strings. Custom errors also provide clear and structured failure conditions without increasing deployment size.
 * **Immutable Artwork Configuration**: The Happy and Sad SVG image URIs are supplied during deployment and  remain unchanged throughout the contract's lifetime. This ensures the NFT artwork cannot be altered after deployment, providing predictable and consistent metadata.
 * **Minimal External Surface Area**: The contracts expose only the functions necessary for minting NFTs, retrieving metadata, and updating NFT moods. Keeping the public interface small reduces the overall attack surface and simplifies security analysis.
+* **No Ether Handling**:
 
 
 
