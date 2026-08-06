@@ -423,7 +423,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Immutable Artwork Configuration**: The Happy and Sad SVG image URIs are supplied during deployment and  remain unchanged throughout the contract's lifetime. This ensures the NFT artwork cannot be altered after deployment, providing predictable and consistent metadata.
 * **Minimal External Surface Area**: The contracts expose only the functions necessary for minting NFTs, retrieving metadata, and updating NFT moods. Keeping the public interface small reduces the overall attack surface and simplifies security analysis.
 * **No Ether Handling**: The contracts are not payable and do not accept, store, or transfer Ether. By avoiding payment logic, they eliminate an entire class of financial vulnerabilities such as accidental fund locking or Ether withdrawal issues.
-* **Standards Compliance**: Adhering to the ERC-721 specification
+* **Standards Compliance**: Adhering to the ERC-721 specification ensures compatibility with wallets,
 
 
 
