@@ -415,7 +415,7 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 
 
 ## Security Considerations
-The project incorporates several  security-focused design decisions to promote standards compliance,  protect NFT ownership, and reduce common smart contract risks. While the contracts are intentionally lightweight, they follow established Ethereum development best practices
+The project incorporates several  security-focused design decisions to promote standards compliance,  protect NFT ownership, and reduce common smart contract risks. While the contracts are intentionally lightweight, they follow established Ethereum development best practices and leverage trusted libraries wherever possible.
 
 
 
