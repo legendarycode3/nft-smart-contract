@@ -417,7 +417,7 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 ## Security Considerations
 The project incorporates several  security-focused design decisions to promote standards compliance,  protect NFT ownership, and reduce common smart contract risks. While the contracts are intentionally lightweight, they follow established Ethereum development best practices and leverage trusted libraries wherever possible. </br>
 * **Ownership and Approval Verification**: The `MoodNft` contract restricts mood updates to the NFT owner or an approved operator. Before allowing a mood change, the contract verifies the caller's authorization, preventing unauthorized users from modifying another user's NFT.
-* **OpenZeppelin ERC-721 Implementation**: Both NFT contracts inherit from OpenZeppelin's
+* **OpenZeppelin ERC-721 Implementation**: Both NFT contracts inherit from OpenZeppelin's audited ERC-721 implementation,
 
 
 
