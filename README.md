@@ -419,7 +419,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Ownership and Approval Verification**: The `MoodNft` contract restricts mood updates to the NFT owner or an approved operator. Before allowing a mood change, the contract verifies the caller's authorization, preventing unauthorized users from modifying another user's NFT.
 * **OpenZeppelin ERC-721 Implementation**: Both NFT contracts inherit from OpenZeppelin's audited ERC-721 implementation, providing secure and standards-compliant functionality for NFT ownership, transfers, approvals, and safe minting while reducing the risk of introducing vulnerabilities through custom implementations.
 * **Safe NFT Minting**: NFTs are minted using the `_safeMint()` function, ensuring that tokens sent to smart contracts are transferred only if the receiving contract correctly implements the ERC-721 receiver interface. This helps prevent NFTs from becoming permanently locked in incompatible contracts.
-* **Custom Errors**: Access control failures use custom Solidity errors instead of revert strings.
+* **Custom Errors**: Access control failures use custom Solidity errors instead of revert strings. Custom errors also provide clear and 
 
 
 
