@@ -415,7 +415,7 @@ The smart contracts incorporate several gas optimization techniques to reduce de
 
 
 ## Security Considerations
-The project incorporates several
+The project incorporates several  security-focused design decisions
 
 
 
