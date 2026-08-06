@@ -420,7 +420,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **OpenZeppelin ERC-721 Implementation**: Both NFT contracts inherit from OpenZeppelin's audited ERC-721 implementation, providing secure and standards-compliant functionality for NFT ownership, transfers, approvals, and safe minting while reducing the risk of introducing vulnerabilities through custom implementations.
 * **Safe NFT Minting**: NFTs are minted using the `_safeMint()` function, ensuring that tokens sent to smart contracts are transferred only if the receiving contract correctly implements the ERC-721 receiver interface. This helps prevent NFTs from becoming permanently locked in incompatible contracts.
 * **Custom Errors**: Access control failures use custom Solidity errors instead of revert strings. Custom errors also provide clear and structured failure conditions without increasing deployment size.
-* **Immutable Artwork Configuration**: The Happy and Sad SVG image URIs are supplied during deployment and  remain unchanged throughout the contract's lifetime. 
+* **Immutable Artwork Configuration**: The Happy and Sad SVG image URIs are supplied during deployment and  remain unchanged throughout the contract's lifetime. This ensures the NFT artwork cannot be altered after deployment,
 
 
 
