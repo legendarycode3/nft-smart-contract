@@ -431,6 +431,7 @@ The project incorporates several  security-focused design decisions to promote s
 ### Basic NFT
 * **IPFS Metadata Availability**:
 * **Immutable Metadata**:
+* **Metadata Integrity**:
 
 
 
