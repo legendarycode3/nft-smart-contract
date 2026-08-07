@@ -429,6 +429,7 @@ The project incorporates several  security-focused design decisions to promote s
 
 ## Potential Risks & Assumptions
 ### Basic NFT
+* **IPFS Metadata Availability**:
 
 
 
