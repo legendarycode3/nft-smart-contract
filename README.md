@@ -429,7 +429,7 @@ The project incorporates several  security-focused design decisions to promote s
 
 ## Potential Risks & Assumptions
 ### Basic NFT
-* **IPFS Metadata Availability**:
+* **IPFS Metadata Availability**: The NFT metadata is stored
 * **Immutable Metadata**:
 * **Metadata Integrity**:
 * **External Storage Dependency**:
