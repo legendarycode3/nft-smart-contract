@@ -429,7 +429,7 @@ The project incorporates several  security-focused design decisions to promote s
 
 ## Potential Risks & Assumptions
 ### Basic NFT
-* **IPFS Metadata Availability**: The NFT metadata is stored on IPFS rather than directly on-chain. While IPFS provides decentralized storage,
+* **IPFS Metadata Availability**: The NFT metadata is stored on IPFS rather than directly on-chain. While IPFS provides decentralized storage, the metadata remains accessible only
 * **Immutable Metadata**:
 * **Metadata Integrity**:
 * **External Storage Dependency**:
