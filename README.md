@@ -431,8 +431,8 @@ The project incorporates several  security-focused design decisions to promote s
 ### Basic NFT
 * **IPFS Metadata Availability**: The NFT metadata is stored on IPFS rather than directly on-chain. While IPFS provides decentralized storage, the metadata remains accessible only as long as the content is properly pinned or hosted by one or more IPFS nodes. If the content is no longer pinned, the metadata may become temporarily or permanently unavailable.
 * **Immutable Metadata**: Once an NFT is minted, its metadata URI is permanently assigned and cannot be modified. This immutability ensures consistency and trust but also means that any mistakes in the uploaded metadata (such as incorrect attributes, image links, or descriptions) cannot be corrected after deployment.
-* **Metadata Integrity**: The contract assumes that all metadata files were correctly created,
-* **External Storage Dependency**:
+* **Metadata Integrity**: The contract assumes that all metadata files were correctly created, uploaded, and linked before deployment.
+* **External Storage Dependency**:  
 
 
 
