@@ -436,7 +436,7 @@ The project incorporates several  security-focused design decisions to promote s
 *  **Token ID Assumption**: Token IDs are generated sequentially  starting from zero. The implementation assumes that the internal counter remains the sole mechanism for generating new token IDs.
 
 ### Mood NFT
-* **On-Chain Metadata Size**:
+* **On-Chain Metadata Size**: SVG artwork and metadata are stored
 
 
 
