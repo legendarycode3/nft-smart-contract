@@ -439,7 +439,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **On-Chain Metadata Size**: SVG artwork and metadata are stored as Base64-encoded strings within the contract.  Larger SVG files increase deployment size and can significantly increase deployment gas costs.
 * **Deployment Cost**: Because the SVG artwork is embedded into the contract during deployment, deploying `MoodNft` can be considerably more expensive than deploying a minimal ERC-721 contract.
 * **Dynamic Metadata Generation**: The `tokenURI()` function dynamically constructs and Base64-encodes the NFT metadata whenever it is queried. This increases computational work compared with returning a pre-stored metadata URI.
-* **Gas Consumption of `tokenURI()`**:  Although `tokenURI()` is normally called as a read-only operation,
+* **Gas Consumption of `tokenURI()`**:  Although `tokenURI()` is normally called as a read-only operation, applications interacting with the function on-chain
 
 
 
