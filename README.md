@@ -435,6 +435,8 @@ The project incorporates several  security-focused design decisions to promote s
 * **External Storage Dependency**:  Although ownership records are stored securely on-chain, the associated images and metadata are maintained off-chain through IPFS. The long-term availability of these assets depends on maintaining reliable decentralized storage infrastructure.
 *  **Token ID Assumption**: Token IDs are generated sequentially  starting from zero. The implementation assumes that the internal counter remains the sole mechanism for generating new token IDs.
 
+### Mood NFT
+
 
 
 ## Foundry
