@@ -443,7 +443,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Artwork Immutability**: The Happy and Sad SVG URIs are supplied during deployment and cannot be changed afterward. If incorrect artwork is provided during deployment, the contract does not include an administrative mechanism for replacing it.
 * **Limited Mood States**: The contract currently supports only two predefined states: `HAPPY` and `SAD`. Adding additional moods would require modifying the contract implementation and  redeploying it.
 * **Metadata Attribute Limitation**: The current metadata uses a fixed `moodiness` attribute with a value of `100`. The attribute does not dynamically represent the current Happy or Sad state.
-* **Token Existence**: Functions such as `tokenURI()` and `flipmood()` assume that the referenced token ID exists.
+* **Token Existence**: Functions such as `tokenURI()` and `flipmood()` assume that the referenced token ID exists. Applications interacting with the contract should
 
 
 
