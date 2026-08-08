@@ -440,7 +440,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Deployment Cost**: Because the SVG artwork is embedded into the contract during deployment, deploying `MoodNft` can be considerably more expensive than deploying a minimal ERC-721 contract.
 * **Dynamic Metadata Generation**: The `tokenURI()` function dynamically constructs and Base64-encodes the NFT metadata whenever it is queried. This increases computational work compared with returning a pre-stored metadata URI.
 * **Gas Consumption of `tokenURI()`**:  Although `tokenURI()` is normally called as a read-only operation, applications interacting with the function on-chain or through other contracts may incur additional computational costs due to dynamic metadata generation.
-* **Artwork Immutability**: The Happy and Sad SVG URIs are supplied
+* **Artwork Immutability**: The Happy and Sad SVG URIs are supplied during deployment and cannot be changed afterward.
 
 
 
