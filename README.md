@@ -438,6 +438,7 @@ The project incorporates several  security-focused design decisions to promote s
 ### Mood NFT
 * **On-Chain Metadata Size**: SVG artwork and metadata are stored as Base64-encoded strings within the contract.  Larger SVG files increase deployment size and can significantly increase deployment gas costs.
 * **Deployment Cost**: Because the SVG artwork is embedded into the contract during deployment, deploying `MoodNft` can be considerably more expensive than deploying a minimal ERC-721 contract.
+* **Dynamic Metadata Generation**:
 
 
 
