@@ -441,7 +441,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Dynamic Metadata Generation**: The `tokenURI()` function dynamically constructs and Base64-encodes the NFT metadata whenever it is queried. This increases computational work compared with returning a pre-stored metadata URI.
 * **Gas Consumption of `tokenURI()`**:  Although `tokenURI()` is normally called as a read-only operation, applications interacting with the function on-chain or through other contracts may incur additional computational costs due to dynamic metadata generation.
 * **Artwork Immutability**: The Happy and Sad SVG URIs are supplied during deployment and cannot be changed afterward. If incorrect artwork is provided during deployment, the contract does not include an administrative mechanism for replacing it.
-* **Limited Mood States**: The contract currently supports only two predefined states: `HAPPY` and `SAD`. Adding additional moods
+* **Limited Mood States**: The contract currently supports only two predefined states: `HAPPY` and `SAD`. Adding additional moods would require modifying the contract implementation and
 
 
 
