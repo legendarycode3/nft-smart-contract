@@ -433,7 +433,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Immutable Metadata**: Once an NFT is minted, its metadata URI is permanently assigned and cannot be modified. This immutability ensures consistency and trust but also means that any mistakes in the uploaded metadata (such as incorrect attributes, image links, or descriptions) cannot be corrected after deployment.
 * **Metadata Integrity**: The contract assumes that all metadata files were correctly created, uploaded, and linked before deployment. Invalid JSON formatting, broken IPFS links, or incorrect image references will result in incomplete or inaccessible NFT metadata across wallets and marketplaces.
 * **External Storage Dependency**:  Although ownership records are stored securely on-chain, the associated images and metadata are maintained off-chain through IPFS. The long-term availability of these assets depends on maintaining reliable decentralized storage infrastructure.
-*  **Token ID Assumption**: Token IDs are generated sequentially
+*  **Token ID Assumption**: Token IDs are generated sequentially  starting from zero.
 
 
 
