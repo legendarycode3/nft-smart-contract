@@ -447,7 +447,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Approval Assumption**: The mood-changing mechanism allows the NFT owner or an approved address to modify the token's mood. Users should understand that granting approval to another address also grants that address permission to change the NFT's mood.
 
 ### General Assumptions
-* **OpenZeppelin Dependency**:
+* **OpenZeppelin Dependency**: The contracts rely on OpenZeppelin's
 
 
 
