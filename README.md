@@ -448,6 +448,7 @@ The project incorporates several  security-focused design decisions to promote s
 
 ### General Assumptions
 * **OpenZeppelin Dependency**: The contracts rely on OpenZeppelin's ERC-721 implementation and assume the imported dependency  remains compatible with the project's Solidity version.
+* **Correct Deployment Configuration**:
 
 
 
