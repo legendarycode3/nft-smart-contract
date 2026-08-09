@@ -449,7 +449,8 @@ The project incorporates several  security-focused design decisions to promote s
 ### General Assumptions
 * **OpenZeppelin Dependency**: The contracts rely on OpenZeppelin's ERC-721 implementation and assume the imported dependency  remains compatible with the project's Solidity version.
 * **Correct Deployment Configuration**: The deployment scripts assume that the required SVG files exist at the expected paths and contain valid SVG content.
-* **Trusted Deployment Environment**: Deployment scripts use Foundry broadcasting and therefore assume that the configured deployer
+* **Trusted Deployment Environment**: Deployment scripts use Foundry broadcasting and therefore assume that the configured deployer  account and private-key environment are correctly secured.
+
 
 
 
