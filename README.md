@@ -452,7 +452,7 @@ The project incorporates several  security-focused design decisions to promote s
 * **Trusted Deployment Environment**: Deployment scripts use Foundry broadcasting and therefore assume that the configured deployer  account and private-key environment are correctly secured.
 * **No Financial Logic**: The contracts do not implement payments,  royalties, staking, or financial mechanisms. Consequently, economic security considerations associated
 * **Testing Does Not Guarantee Complete Security**: The included unit and integration tests validate important contract behaviors but cannot guarantee that the contracts are completely free from vulnerabilities.
-* **Production Deployment Requires Additional Review**:
+* **Production Deployment Requires Additional Review**: Before deploying these contracts
 
 
 
