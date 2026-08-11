@@ -379,8 +379,8 @@ Increment Token Counter
   │
   ▼
 NFT Created
-```
-When a user calls mintNft(), 
+``` </br>
+When a user calls mintNft(), the contract generates a unique token ID,
 
 
 
