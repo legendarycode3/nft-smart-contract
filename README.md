@@ -355,7 +355,7 @@ This function is overridden from OpenZeppelin's ERC721 implementation and is use
 
 
 ## How It Works
-This project implements a dynamic ERC-721 Mood NFT where each token
+This project implements a dynamic ERC-721 Mood NFT where each token has an on-chain mood state
 
 
 
