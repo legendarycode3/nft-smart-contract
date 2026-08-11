@@ -380,6 +380,7 @@ Increment Token Counter
   ▼
 NFT Created
 ```
+When a user calls mintNft(), 
 
 
 
