@@ -380,7 +380,7 @@ Increment Token Counter
   ▼
 NFT Created
 ``` 
-When a user calls mintNft(), the contract generates a unique token ID, stores the associated metadata URI, and safely mints the ERC-721 token
+When a user calls `mintNft()`, the contract generates a unique token ID, stores the associated metadata URI, and safely mints the ERC-721 token using OpenZeppelin's `_safeMint()` implementation.
 
 
 
