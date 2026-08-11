@@ -355,6 +355,7 @@ This function is overridden from OpenZeppelin's ERC721 implementation and is use
 
 
 ## How It Works
+This project implements a dynamic
 
 
 
