@@ -389,6 +389,28 @@ When a user calls `mintNft()`, the contract generates a unique token ID, stores 
 
 ### Mood NFT Minting Flow
 The Mood NFT implements a dynamic NFT architecture where the visual representation of each token can change after minting.
+```shell
+  User
+   │
+   │  mintNft()
+   ▼
+  MoodNft Contract
+   │
+   ├── Generate Token ID
+   │
+   ├── _safeMint(msg.sender, tokenId)
+   │
+   ├── Set Mood = HAPPY
+   │
+   └── Increment Token Counter
+   │
+   ▼
+  NFT Successfully Minted
+   │
+   ▼
+  Initial State
+  Mood = HAPPY
+```
 
 
 
