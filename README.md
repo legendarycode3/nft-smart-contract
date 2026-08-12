@@ -358,6 +358,7 @@ This function is overridden from OpenZeppelin's ERC721 implementation and is use
 This project implements a dynamic ERC-721 Mood NFT where each token has an on-chain mood state that can change between `HAPPY` and `SAD`. </br>
 The NFT artwork is stored directly in the smart contract as Base64-encoded SVG data, while tokenURI() dynamically generates the metadata and artwork based on the token's current mood. </br>
 
+
 ### Basic NFT Minting Flow
 The Basic NFT follows a straightforward ERC-721 minting and metadata flow.
 
@@ -384,6 +385,9 @@ Increment Token Counter
 NFT Created
 ``` 
 When a user calls `mintNft()`, the contract generates a unique token ID, stores the associated metadata URI, and safely mints the ERC-721 token using OpenZeppelin's `_safeMint()` implementation. The newly created NFT is assigned to the recipient and becomes part of the collection.
+
+
+### Mood NFT Minting Flow
 
 
 
