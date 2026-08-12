@@ -415,6 +415,9 @@ The Mood NFT implements a dynamic NFT architecture where the visual representati
 `mintNft()`, the contract generates a unique token ID using the token counter and safely mints the NFT to the caller. starts in the `HAPPY` state. The corresponding mood is stored in the `s_tokenIdToMood` mapping, allowing each NFT to maintain its own independent state.
 
 
+#### Fully On-Chain Mood NFT Architecture
+
+
 
 ## Technologies Used
 The project is built using a modern Ethereum development stack focused on standards-compliant NFT development, deployment automation,  and comprehensive testing. The following technologies and  tools were used throughout the project. </br>
