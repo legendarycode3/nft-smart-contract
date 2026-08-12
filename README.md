@@ -416,7 +416,7 @@ The Mood NFT implements a dynamic NFT architecture where the visual representati
 
 
 #### Fully On-Chain Mood NFT Architecture
-The Mood NFT's artwork and
+The Mood NFT's artwork and metadata follow an entirely on-chain data flow.
 
 
 ### Complete Project Flow  
