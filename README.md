@@ -411,7 +411,7 @@ The Mood NFT implements a dynamic NFT architecture where the visual representati
   Initial State
   Mood = HAPPY
 ```
-`mintNft()`, the contract generates
+`mintNft()`, the contract generates a unique token ID using the
 
 
 
