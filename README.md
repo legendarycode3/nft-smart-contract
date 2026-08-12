@@ -388,7 +388,7 @@ When a user calls `mintNft()`, the contract generates a unique token ID, stores 
 
 
 ### Mood NFT Minting Flow
-The Mood NFT implements a dynamic NFT architecture
+The Mood NFT implements a dynamic NFT architecture where the visual representation
 
 
 
