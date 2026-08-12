@@ -384,7 +384,8 @@ Increment Token Counter
   ▼
 NFT Created
 ``` 
-When a user calls `mintNft()`, the contract generates a unique token ID, stores the associated metadata URI, and safely mints the ERC-721 token using OpenZeppelin's `_safeMint()` implementation. The newly created NFT is assigned to the recipient and becomes part of the collection.
+When a user calls `mintNft()`, the contract generates a unique token ID, stores the associated metadata URI, and safely mints the ERC-721 token using OpenZeppelin's `_safeMint()` implementation. The newly created NFT is assigned to the recipient and becomes part of the collection. </br>
+Every newly minted Mood NFT
 
 
 ### Mood NFT Minting Flow
