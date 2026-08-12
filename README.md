@@ -418,6 +418,9 @@ The Mood NFT implements a dynamic NFT architecture where the visual representati
 #### Fully On-Chain Mood NFT Architecture
 
 
+### Complete Project Flow  
+
+
 
 ## Technologies Used
 The project is built using a modern Ethereum development stack focused on standards-compliant NFT development, deployment automation,  and comprehensive testing. The following technologies and  tools were used throughout the project. </br>
