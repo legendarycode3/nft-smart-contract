@@ -412,7 +412,7 @@ The Mood NFT implements a dynamic NFT architecture where the visual representati
   Initial State
   Mood = HAPPY
 ```
-`mintNft()`, the contract generates a unique token ID using the token counter and safely mints the NFT to the caller. starts in the `HAPPY` state. The corresponding mood is stored in the `s_tokenIdToMood` mapping,
+`mintNft()`, the contract generates a unique token ID using the token counter and safely mints the NFT to the caller. starts in the `HAPPY` state. The corresponding mood is stored in the `s_tokenIdToMood` mapping, allowing each NFT to maintain its own independent state.
 
 
 
