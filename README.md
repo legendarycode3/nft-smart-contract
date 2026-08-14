@@ -475,6 +475,7 @@ Run the complete test suite: </br>
 ```shell
   forge test
 ```
+### Run tests with detailed execution traces:
 
 
 
