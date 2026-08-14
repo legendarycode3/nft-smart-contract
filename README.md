@@ -487,6 +487,7 @@ The test suite covers: </br>
 * Mood NFT deployment and minting.
 * Initial `HAPPY` mood assignment.
 * Mood switching between `HAPPY` and `SAD`.
+* Dynamic on-chain metadata generation
 
 
 ## Gas Optimizations
