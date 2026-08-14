@@ -468,6 +468,7 @@ Or, if using the provided `Makefile`: </br>
 
 
 ## Testing
+The project uses Foundry
 
 
 
