@@ -471,6 +471,7 @@ Or, if using the provided `Makefile`: </br>
 The project uses Foundry and `forge-std` to test the NFT contracts, deployment utilities,  metadata generation, and dynamic mood behavior. </br>
 
 ### Run Tests
+Run the complete test suite: </br>
 
 
 
