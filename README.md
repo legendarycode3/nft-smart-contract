@@ -476,7 +476,9 @@ Run the complete test suite: </br>
   forge test
 ```
 ### Run tests with detailed execution traces:
-
+```shell
+  forge test -vvvv
+```
 
 
 ## Gas Optimizations
