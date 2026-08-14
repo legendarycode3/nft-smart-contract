@@ -468,7 +468,7 @@ Or, if using the provided `Makefile`: </br>
 
 
 ## Testing
-The project uses Foundry and `forge-std` to test the NFT contracts, 
+The project uses Foundry and `forge-std` to test the NFT contracts, deployment utilities,
 
 
 
@@ -527,9 +527,6 @@ The project incorporates several  security-focused design decisions to promote s
 * **No Financial Logic**: The contracts do not implement payments,  royalties, staking, or financial mechanisms. Consequently, economic security considerations associated with those systems are outside the scope of this project.
 * **Testing Does Not Guarantee Complete Security**: The included unit and integration tests validate important contract behaviors but cannot guarantee that the contracts are completely free from vulnerabilities.
 * **Production Deployment Requires Additional Review**: Before deploying these contracts to a production network or using them in a high-value NFT collection, the contracts should undergo additional security review, testing, and potentially an independent smart contract audit.
-
-
-
 
 
 
