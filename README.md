@@ -481,7 +481,7 @@ Run the complete test suite: </br>
 ```
 
 ### Test Coverage
-
+The test suite covers: </br>
 
 
 ## Gas Optimizations
