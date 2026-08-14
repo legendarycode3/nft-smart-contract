@@ -472,6 +472,9 @@ The project uses Foundry and `forge-std` to test the NFT contracts, deployment u
 
 ### Run Tests
 Run the complete test suite: </br>
+```shell
+  forge test
+```
 
 
 
