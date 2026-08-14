@@ -483,7 +483,7 @@ Run the complete test suite: </br>
 ### Test Coverage
 The test suite covers: </br>
 * Basic NFT deployment and configuration.
-* 
+* Basic NFT minting
 
 
 ## Gas Optimizations
