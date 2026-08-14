@@ -489,7 +489,8 @@ The test suite covers: </br>
 * Mood switching between `HAPPY` and `SAD`.
 * Dynamic on-chain metadata generation.
 * Base64 JSON and SVG encoding.
-* SVG-to-Data-URI conversion
+* SVG-to-Data-URI conversion.
+* Deployment and contract integration workflows.
 
 
 ## Gas Optimizations
