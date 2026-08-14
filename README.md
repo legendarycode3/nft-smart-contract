@@ -486,6 +486,7 @@ The test suite covers: </br>
 * Basic NFT metadata URI retrieval.
 * Mood NFT deployment and minting.
 * Initial `HAPPY` mood assignment.
+* Mood switching between
 
 
 ## Gas Optimizations
