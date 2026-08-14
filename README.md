@@ -482,7 +482,8 @@ Run the complete test suite: </br>
 
 ### Test Coverage
 The test suite covers: </br>
-* Basic NFT deployment
+* Basic NFT deployment and configuration.
+* 
 
 
 ## Gas Optimizations
