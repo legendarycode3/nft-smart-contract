@@ -484,6 +484,7 @@ The test suite covers: </br>
 * Basic NFT deployment and configuration.
 * Basic NFT minting and ownership.
 * Basic NFT metadata URI retrieval.
+* Mood NFT deployment and minting.
 
 
 ## Gas Optimizations
