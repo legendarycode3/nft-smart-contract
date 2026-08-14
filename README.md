@@ -462,7 +462,6 @@ Or, if using the provided `Makefile`: </br>
 ```
 
 
-
 ## Usage
 
 
@@ -483,7 +482,7 @@ Run the complete test suite: </br>
 ### Test Coverage
 The test suite covers: </br>
 * Basic NFT deployment and configuration.
-* Basic NFT minting
+* Basic NFT minting and ownership
 
 
 ## Gas Optimizations
