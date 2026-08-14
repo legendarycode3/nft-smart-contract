@@ -469,12 +469,12 @@ Or, if using the provided `Makefile`: </br>
 ## Testing
 The project uses Foundry and `forge-std` to test the NFT contracts, deployment utilities,  metadata generation, and dynamic mood behavior. </br>
 
-### Run Tests
+#### Run Tests
 Run the complete test suite: </br>
 ```shell
   forge test
 ```
-### Run tests with detailed execution traces:
+#### Run tests with detailed execution traces:
 ```shell
   forge test -vvvv
 ```
