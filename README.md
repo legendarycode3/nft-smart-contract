@@ -453,7 +453,7 @@ MoodNft Contract
           ▼
      Data URI Returned
 ```
-The deployment script reads the Happy and Sad SVG files from the repository
+The deployment script reads the Happy and Sad SVG files from the repository and converts them into Base64-encoded
 
 
 ### Complete Project Flow  
