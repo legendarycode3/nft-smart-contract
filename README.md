@@ -417,6 +417,42 @@ The Mood NFT implements a dynamic NFT architecture where the visual representati
 
 #### Fully On-Chain Mood NFT Architecture
 The Mood NFT's artwork and metadata follow an entirely on-chain data flow.
+```shell
+                           MOOD NFT ON-CHAIN FLOW
+
+SVG Files
+   │
+   │ Deployment
+   ▼
+Base64 Encoding
+   │
+   ▼
+MoodNft Contract
+   │
+   ├── Happy SVG URI
+   └── Sad SVG URI
+          │
+          ▼
+     User Mints NFT
+          │
+          ▼
+      Mood = HAPPY
+          │
+          ▼
+       tokenURI()
+          │
+          ▼
+  Select Current Artwork
+          │
+          ▼
+  Generate JSON Metadata
+          │
+          ▼
+      Base64 Encode
+          │
+          ▼
+     Data URI Returned
+```
 
 
 ### Complete Project Flow  
@@ -491,6 +527,7 @@ The test suite covers: </br>
 * Base64 JSON and SVG encoding.
 * SVG-to-Data-URI conversion.
 * Deployment and contract integration workflows.
+
 
 
 ## Gas Optimizations
