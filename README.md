@@ -492,7 +492,7 @@ After deployment, the artwork is stored within the contract and reused whenever 
                                                    ▼
                                             Data URI
 ```
-Together, these workflows demonstrate two major approaches to NFT metadata architecture: **`off-chain metadata using IPFS`**
+Together, these workflows demonstrate two major approaches to NFT metadata architecture: **`off-chain metadata using IPFS`** and **fully on-chain dynamic metadata
 
 
 
