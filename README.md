@@ -492,7 +492,7 @@ After deployment, the artwork is stored within the contract and reused whenever 
                                                    ▼
                                             Data URI
 ```
-Together, these workflows demonstrate two major approaches to NFT metadata architecture: **`off-chain metadata using IPFS`** and **fully on-chain dynamic metadata using Base64-encoded JSON and SVG artwork**. The project provides a practical example of how ERC-721 NFTs can be designed for different storage, metadata, and dynamic-state requirements while maintaining a clear separation between
+Together, these workflows demonstrate two major approaches to NFT metadata architecture: **`off-chain metadata using IPFS`** and **fully on-chain dynamic metadata using Base64-encoded JSON and SVG artwork**. The project provides a practical example of how ERC-721 NFTs can be designed for different storage, metadata, and dynamic-state requirements while maintaining a clear separation between smart contracts,
 
 
 
