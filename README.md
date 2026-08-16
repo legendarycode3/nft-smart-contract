@@ -492,6 +492,7 @@ After deployment, the artwork is stored within the contract and reused whenever 
                                                    ▼
                                             Data URI
 ```
+Together, these workflows demonstrate
 
 
 
