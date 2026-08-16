@@ -458,6 +458,40 @@ After deployment, the artwork is stored within the contract and reused whenever 
 
 
 ### Complete Project Flow  
+```shell
+                           NFT PROJECT FLOW
+
+                              Developer
+                                  │
+                                  ▼
+                         Foundry Deployment
+                                  │
+                 ┌────────────────┴────────────────┐
+                 │                                 │
+                 ▼                                 ▼
+            BasicNft.sol                      MoodNft.sol
+                 │                                 │
+                 ▼                                 ▼
+              Mint NFT                         Mint NFT
+                 │                                 │
+                 ▼                                 ▼
+          Store IPFS URI                     Mood = HAPPY
+                 │                                 │
+                 ▼                                 ▼
+            tokenURI()                       tokenURI()
+                 │                                 │
+                 ▼                                 ▼
+          IPFS Metadata                   Generate Metadata
+                                                   │
+                                                   ▼
+                                             Select SVG
+                                                   │
+                                                   ▼
+                                           Base64 Encode
+                                                   │
+                                                   ▼
+                                            Data URI
+```
 
 
 
