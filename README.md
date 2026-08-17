@@ -596,7 +596,7 @@ The test suite covers: </br>
   └── foundry.toml
 ```
 ### Directory Overview
-* **`src/`**: Contains the core
+* **`src/`**: Contains the core NFT smart contracts that implement
 
 
 
