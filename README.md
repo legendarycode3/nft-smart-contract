@@ -568,6 +568,33 @@ The test suite covers: </br>
 
 
 ## Project Structure
+```shell
+  ├── src
+  │   ├── BasicNft.sol
+  │   └── MoodNft.sol
+  │
+  ├── script
+  │   ├── DeployBasicNft.s.sol
+  │   ├── DeployMoodNft.s.sol
+  │   └── Interaction.s.sol
+  │
+  ├── test
+  │   ├── unit
+  │   │   ├── DeployMoodNftTest.t.sol
+  │   │   └── MoodNftTest.t.sol
+  │   │
+  │   └── integration
+  │       ├── BasicNft.t.sol
+  │       └── MoodNftIntegration.t.sol
+  │
+  ├── images
+  │   ├── happy.svg
+  │   └── sad.svg
+  │
+  ├── lib
+  │
+  └── foundry.toml
+```
 
 
 ## Gas Optimizations
