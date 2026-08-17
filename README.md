@@ -597,7 +597,7 @@ The test suite covers: </br>
 ```
 ### Directory Overview
 * **`src/`**: Contains the core NFT smart contracts that implement the project's ERC-721 functionality. </br>
-    * `BasicNft.sol`:
+    * `BasicNft.sol`: Implements the traditional
 
 
 
