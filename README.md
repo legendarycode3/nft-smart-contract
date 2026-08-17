@@ -596,7 +596,7 @@ The test suite covers: </br>
   └── foundry.toml
 ```
 ### Directory Overview
-* **`src/`**
+* **`src/`**: Contains the core
 
 
 
