@@ -603,7 +603,7 @@ The test suite covers: </br>
 * **`script/`**:  Contains Foundry deployment and interaction scripts used to automate contract deployment and  post-deployment operations.
     * `DeployBasicNft.s.sol`: Deploys the `BasicNft` contract.
     * `DeployMoodNft.s.sol`: Reads the SVG assets, converts them into Base64 Data URIs, and deploys the `MoodNft` contract.
-    * `Interaction.s.sol`:
+    * `Interaction.s.sol`: Provides scripts for minting NFTs
 
 
 
