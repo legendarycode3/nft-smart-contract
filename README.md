@@ -600,6 +600,8 @@ The test suite covers: </br>
     * `BasicNft.sol`: Implements the traditional  NFT with externally hosted metadata URIs.
     * `MoodNft.sol`: Implements the dynamic NFT with on-chain metadata and mood-based SVG artwork.
 
+* **`script/`**:  
+
 
 
 ## Gas Optimizations
