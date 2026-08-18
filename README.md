@@ -601,6 +601,7 @@ The test suite covers: </br>
     * `MoodNft.sol`: Implements the dynamic NFT with on-chain metadata and mood-based SVG artwork.
 
 * **`script/`**:  Contains Foundry deployment and interaction scripts used to automate contract deployment and  post-deployment operations.
+    * `DeployBasicNft.s.sol`
 
 
 
