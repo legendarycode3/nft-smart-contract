@@ -607,7 +607,8 @@ The test suite covers: </br>
       
 * **`test/`**: Contains the project's automated test suite,  separated into unit and integration tests.
     * `unit/`: Tests individual utilities and contract-related functionality in isolation.
-    * integration/`: Tests complete workflows involving deployment,  minting, metadata generation, 
+    * integration/`: Tests complete workflows involving deployment,  minting, metadata generation, and NFT interactions.
+
 
 
 ## Gas Optimizations
