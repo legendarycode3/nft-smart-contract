@@ -604,7 +604,7 @@ The test suite covers: </br>
     * `DeployBasicNft.s.sol`: Deploys the `BasicNft` contract.
     * `DeployMoodNft.s.sol`: Reads the SVG assets, converts them into Base64 Data URIs, and deploys the `MoodNft` contract.
     * `Interaction.s.sol`: Provides scripts for minting NFTs and changing the mood of a deployed Mood NFT.
-
+* **`test/`**: 
 
 
 
