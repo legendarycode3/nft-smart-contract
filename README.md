@@ -606,7 +606,8 @@ The test suite covers: </br>
     * `Interaction.s.sol`: Provides scripts for minting NFTs and changing the mood of a deployed Mood NFT.
       
 * **`test/`**: Contains the project's automated test suite,  separated into unit and integration tests.
-    * `unit/`: 
+    * `unit/`:
+    * integration/`:
 
 
 
