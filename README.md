@@ -610,7 +610,7 @@ The test suite covers: </br>
     * integration/`: Tests complete workflows involving deployment,  minting, metadata generation, and NFT interactions.
 
 * **`images/`**: Contains the SVG artwork used by the `MoodNft` contract.
-    * `happy.svg`:
+    * `happy.svg`: Artwork representing the Happy mood.
 
 
 
