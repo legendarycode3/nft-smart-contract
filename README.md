@@ -611,7 +611,8 @@ The test suite covers: </br>
 
 * **`images/`**: Contains the SVG artwork used by the `MoodNft` contract.
     * `happy.svg`: Artwork representing the Happy mood.
-    * `sad.svg`:  Artwork representing the Sad mood.
+    * `sad.svg`:  Artwork representing the Sad mood. </br>
+These SVG files are read
 
 
 
