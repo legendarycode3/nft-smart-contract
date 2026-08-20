@@ -609,7 +609,7 @@ The test suite covers: </br>
     * `unit/`: Tests individual utilities and contract-related functionality in isolation.
     * integration/`: Tests complete workflows involving deployment,  minting, metadata generation, and NFT interactions.
 
-* **`images/`**: 
+* **`images/`**: Contains the SVG artwork used 
 
 
 
