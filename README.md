@@ -614,7 +614,7 @@ The test suite covers: </br>
     * `sad.svg`:  Artwork representing the Sad mood. </br>
 These SVG files are read by the deployment script and converted into Base64-encoded image Data URIs before being passed to the `MoodNft` constructor.
 
-* **`lib/`**: Contains external Solidity dependencies installed through Foundry, including OpenZeppelin Contracts,
+* **`lib/`**: Contains external Solidity dependencies installed through Foundry, including OpenZeppelin Contracts, `forge-std`, and Foundry DevOps utilities.
 
 
 
