@@ -616,6 +616,8 @@ These SVG files are read by the deployment script and converted into Base64-enco
 
 * **`lib/`**: Contains external Solidity dependencies installed through Foundry, including OpenZeppelin Contracts, `forge-std`, and Foundry DevOps utilities.
 
+* **`foundry.toml`**:   
+
 
 
 ## Gas Optimizations
