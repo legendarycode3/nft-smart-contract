@@ -616,7 +616,10 @@ These SVG files are read by the deployment script and converted into Base64-enco
 
 * **`lib/`**: Contains external Solidity dependencies installed through Foundry, including OpenZeppelin Contracts, `forge-std`, and Foundry DevOps utilities.
 
-* **`foundry.toml`**: The main Foundry configuration file. It defines project settings such as source directories, test directories, library paths,  compiler configuration, and other development settings.    
+* **`foundry.toml`**: The main Foundry configuration file. It defines project settings such as source directories, test directories, library paths,  compiler configuration, and other development settings.
+
+* **`README.md`**:    
+
 
 
 
