@@ -620,6 +620,8 @@ These SVG files are read by the deployment script and converted into Base64-enco
 
 * **`README.md`**: Provides documentation for the project, including its architecture, features, smart contracts, functions, installation, usage, testing, security considerations, and other technical details.
 
+### Project Organization
+
 
 
 
