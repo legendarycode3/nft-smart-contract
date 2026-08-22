@@ -618,7 +618,7 @@ These SVG files are read by the deployment script and converted into Base64-enco
 
 * **`foundry.toml`**: The main Foundry configuration file. It defines project settings such as source directories, test directories, library paths,  compiler configuration, and other development settings.
 
-* **`README.md`**: Provides documentation for the project,   
+* **`README.md`**: Provides documentation for the project, including its architecture, features,  
 
 
 
