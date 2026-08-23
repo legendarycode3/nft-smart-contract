@@ -647,7 +647,7 @@ NFT Artwork Assets
    images/
 ```
 
-This organization keeps the core contracts, deployment logic, interaction scripts,  test suites, and NFT assets separated, 
+This organization keeps the core contracts, deployment logic, interaction scripts,  test suites, and NFT assets separated,  making the project easier to navigate, test, maintain, and extend.
 
 
 
