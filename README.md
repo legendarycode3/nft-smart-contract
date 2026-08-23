@@ -646,7 +646,8 @@ NFT Artwork Assets
       ▼
    images/
 ```
-```
+
+This organization keeps the core contracts,
 
 
 
