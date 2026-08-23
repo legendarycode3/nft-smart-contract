@@ -622,6 +622,31 @@ These SVG files are read by the deployment script and converted into Base64-enco
 
 ### Project Organization
 The repository follows a clear separation of responsibilities:
+```shell
+  Smart Contracts
+      │
+      ▼
+     src/
+      │
+      ▼
+Deployment & Interaction
+      │
+      ▼
+   script/
+      │
+      ▼
+Automated Testing
+      │
+      ▼
+    test/
+      │
+      ▼
+NFT Artwork Assets
+      │
+      ▼
+   images/
+```
+```
 
 
 
