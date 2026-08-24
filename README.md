@@ -354,6 +354,10 @@ This function is overridden from OpenZeppelin's ERC721 implementation and is use
 
 
 
+## NFT Metadata Architecture 
+
+
+
 ## How It Works
 This project implements a dynamic ERC-721 Mood NFT where each token has an on-chain mood state that can change between `HAPPY` and `SAD`. </br>
 The NFT artwork is stored directly in the smart contract as Base64-encoded SVG data, while tokenURI() dynamically generates the metadata and artwork based on the token's current mood. </br>
